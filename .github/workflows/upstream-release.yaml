@@ -38,7 +38,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          name: Codespell ${{ matrix.tag }}
+          name: Tox ${{ matrix.tag }}
           body: See upstream release at https://github.com/tox-dev/tox/releases/tag/${{ matrix.tag }}
           prerelease: ${{ contains(matrix.tag, 'pre') }}
           tag_name: ${{ matrix.tag }}
