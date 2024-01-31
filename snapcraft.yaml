@@ -10,6 +10,13 @@ description: |
   * running your tests in each of the environments with the test tool of choice,
   * acting as a frontend to continuous integration servers, greatly reducing boilerplate and merging CI and shell-based testing.
 
+architectures:
+  - amd64
+  - arm64
+  - armhf
+  - ppc64el
+  - riscv64
+  - s390x
 
 confinement: classic
 base: core22
